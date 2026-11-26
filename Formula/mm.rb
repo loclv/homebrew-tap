@@ -1,28 +1,28 @@
 class Mm < Formula
   desc "Generate a Conventional Commit message from Git changes and commit it"
   homepage "https://github.com/loclv/mm"
-  version "0.2.9"
+  version "0.2.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/loclv/mm/releases/download/release-v0.2.9/mm-aarch64-apple-darwin.tar.gz"
-      sha256 "ef94e9cf17ad6d36b488cfa7714338dc2aa4f3ee1371ec690a7e25a1a1bc253c"
+      url "https://github.com/loclv/mm/releases/download/release-v0.2.10/mm-aarch64-apple-darwin.tar.gz"
+      sha256 "825de8c80029eb61a28a9c85ab451d193bf0862884d609f96c8414e7aa6b8076"
     end
     on_intel do
-      url "https://github.com/loclv/mm/releases/download/release-v0.2.9/mm-x86_64-apple-darwin.tar.gz"
-      sha256 "943559ef24bd779c834456aba9309c2536ee77789c981ca3e1b2ee890dbb5da5"
+      url "https://github.com/loclv/mm/releases/download/release-v0.2.10/mm-x86_64-apple-darwin.tar.gz"
+      sha256 "582a6d2274eb6dba0e438e7582e73b5dd37f3e31b4a1720e28d4b36c9be7b8ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/loclv/mm/releases/download/release-v0.2.9/mm-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8b0d11b708515eee9e3918f6d52746914c7a805d1300d41a81127217ad7b5577"
+      url "https://github.com/loclv/mm/releases/download/release-v0.2.10/mm-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "915dfd5ed57d492e6a96d7f7103fced19806990e0ff50aa853066c50b1a9e18c"
     end
     on_intel do
-      url "https://github.com/loclv/mm/releases/download/release-v0.2.9/mm-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bf2a91e90504bcb6325616b57f2424437aafad72e82038d2bab24f0c57ca1e62"
+      url "https://github.com/loclv/mm/releases/download/release-v0.2.10/mm-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fd080eb00b16f8fdc5511bd9872783105f0c28a3f142b87edaf4a877e6b143eb"
     end
   end
 
